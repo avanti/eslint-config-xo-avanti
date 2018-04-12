@@ -15,6 +15,7 @@ module.exports = {
     'expect': true,
     'window': true
   },
+  'parser': 'babel-eslint',
   'rules': {
     'semi': [2, 'never'],
     'capitalized-comments': 0,

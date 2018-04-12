@@ -9,6 +9,7 @@
   "author": "Carlo Schneider <carlo.schneider@penseavanti.com.br>",
   "license": "ISC",
   "dependencies": {
+    "babel-eslint": "^8.2.2",
     "eslint-config-xo": "^0.20.1",
     "eslint-config-xo-space": "^0.18.0"
   }
