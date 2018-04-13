@@ -21,6 +21,12 @@ module.exports = {
     'capitalized-comments': 0,
     'object-curly-spacing': [2, 'always'],
     'array-bracket-spacing': [0, 'always'],
-    'space-before-function-paren': ['error', 'always']
+    'space-before-function-paren': ['error', 'always'],
+    'import/no-unassigned-import': [2, {
+      'allow': [
+        '**/*.css',
+        '**/*.scss'
+      ]
+    }]
   }
 }
