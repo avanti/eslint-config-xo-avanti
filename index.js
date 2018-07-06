@@ -13,7 +13,8 @@ module.exports = {
     'describe': true,
     'test': true,
     'expect': true,
-    'window': true
+    'window': true,
+    'document': true
   },
   'parser': 'babel-eslint',
   'rules': {
@@ -27,6 +28,11 @@ module.exports = {
         '**/*.css',
         '**/*.scss'
       ]
-    }]
+    }],
+    "no-warning-comments": [
+      0
+    ],
+    "unicorn/regex-shorthand": 0,
+    "radix": 0
   }
 }
